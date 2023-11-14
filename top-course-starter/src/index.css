@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color:  #404055;
+}
+.spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: conic-gradient(#0000 10%, #22223b);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
+    animation: spinner-zp9dbg 1s infinite linear;
+}
+
+@keyframes spinner-zp9dbg {
+    to {
+        transform: rotate(1turn);
+    }
+}
+.name{
+    height:50px;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22223b;
+    color:white;
+    font-size: larger;
+}
+button{
+    border:1px solid white;
+    background-color: #22223b;
+    color:white;
+    border-radius: 20px;
+    padding:5px;
+}
+.filter{
+    height:50px;
+    width:500px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.great{
+    height:50px;
+    width:100vd;
+    display:flex;
+    justify-content: center;
+}
+.cards{
+    height:auto;
+    width:200px;
+    display:flex;
+    flex-direction:column;
+    background-color: #22223b;
+    color:white;
+}
+img{
+    height:200px;
+    width:200px;
+}
+.course{
+    height:2200px;
+    width:900px;
+    display:flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* border:1px solid white; */
+    justify-content: space-around;
+    align-content: space-around;
+}
+.parent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.spinner {
+    width: 56px;
+    height: 56px;
+    border: 11.2px #474bff double;
+    border-left-style: solid;
+    border-radius: 50%;
+    animation: spinner-aib1d7 0.75s infinite linear;
+ }
+ 
+ @keyframes spinner-aib1d7 {
+    to {
+       transform: rotate(360deg);
+    }
+ }
