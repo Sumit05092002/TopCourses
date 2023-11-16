@@ -23,7 +23,7 @@ export default function Card(props) {
                 
                 setlikedcourses((prev) => [...prev, mycourses.id]);
             }
-            toast.success("I love you Riya");
+            toast.success("Liked Successfully");
         }
     }
   return (
